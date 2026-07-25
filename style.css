@@ -12,9 +12,10 @@ h1 {
 }
 
 canvas {
-  background: #3b2a1a; /* dark wooden pit vibe */
+  background: url("textures/wood.png");
+  background-size: cover;
   display: block;
   margin: 20px auto;
-  border: 10px solid #c89b5b; /* wooden frame */
+  border: 10px solid #c89b5b;
   border-radius: 8px;
 }
